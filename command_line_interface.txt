@@ -1,0 +1,23 @@
+ls	List the directories and files
+pwd     present working directory
+cd 	Change directory (folder) in the file system.
+cd..	Move one level up (one folder) in the file system(parent)
+cd.     Move to same directory
+clear   clears the CLI window
+cat     show the content of a file
+cp	Copy a file to another directory.
+mv	Move a file to another directory.
+mkdir	Creates a new directory (folder).
+rmdir	Remove a directory (folder).
+exit	Closes the CLI window.
+man	Shows the manual for a given command.
+history gives command history
+whoami  print the name of present user account
+~       symbolizes home dirctory of present user
+*       wildcard expansion
+/       symbolizes home directory
+more	used to view text file in command prompt once in a time
+less	same as more command except some exceptions like up or down arrow scrolling
+find [-option] filename   prints the location of a file        
+grep "text" filename    prints the lines having similar text
+vi filename	open file in vi editor
