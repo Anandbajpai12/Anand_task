@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<title>
+			task
+		</title>
+		<link rel="stylesheet" type="text/css" href="c.css">
+	</head>
+	<body>
+		<div class="header">
+			<div class="inner_header">
+				<img class="ima" src="logo.png" style="width: 150px; height: 110px;" >
+				<h2>Health Care</h2>
+			</div>
+			<div class="in_header">
+				<div class="from" method="post" action="#">
+					<form>
+						<input type="text" name="" placeholder="Email" id="email">
+						<input type="password" name="" placeholder="Password" id="password">
+						<input type="checkbox" name="" value="" style="display: inline-block;"> <label>Remember me 
+							<a href="google.com" > Forgot Password?</a>
+						</label>
+						<input type="submit" id="login" value="LOGIN">
+						<a id="cr" href="www.google.com"> Create Account</a>
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+	$(function() {
+		$("#login").on('click', function() {
+			var email = $("#email").val();
+			var password = $("#password").val();
+			if( email =='' || password ==''){
+				alert("Alert.....Fill all fields!!!!!!");
+			}
+		});
+	});
+	
+</script>
+
+</html>
+
